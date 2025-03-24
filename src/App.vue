@@ -1,25 +1,29 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
+import UserReview from './components/UserReview.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="We most certainly did it! This is not an original text" />
-    </div>
+    <h1>Heavy metal sentiment analyzer</h1>
+    <img alt="mainImage" class="logo" src="./assets/mainImage.jpg" width="125" height="125" />
   </header>
 
   <main>
-    <TheWelcome />
+    <div class="wrapper">
+      <UserReview></UserReview>
+    </div>
+
   </main>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+}
+
+h1 {
+  align-items: center;
 }
 
 .logo {
@@ -32,6 +36,10 @@ header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
+    padding-right: 100%;
+    width: 100%;
+    height: 25%;
+
   }
 
   .logo {
@@ -41,7 +49,10 @@ header {
   header .wrapper {
     display: flex;
     place-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
+
   }
 }
+
 </style>
