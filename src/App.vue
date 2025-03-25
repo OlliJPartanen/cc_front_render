@@ -6,7 +6,7 @@ import UserReview from './components/UserReview.vue';
 <template>
   <header>
     <h1>Heavy metal sentiment analyzer</h1>
-    <img alt="mainImage" class="logo" src="./assets/mainImage.jpg" width="125" height="125" />
+    <img alt="mainImage" class="logo" src="/mainImage.jpg" width="125" height="125" />
   </header>
 
   <main>
