@@ -1,6 +1,5 @@
 
 <script>
-
 // Comment string lists
 let positiveString = [
     "This was a positive comment!",
@@ -47,15 +46,15 @@ export default {
             // Debug random value to log. 0 pos, 1 neu, 2 neg
             console.log(randomNum)
             if (randomNum == 0) {
-                document.getElementById("analysisimage").src = "src/assets/positive.jpg"
+                document.getElementById("analysisimage").src = "/positive.jpg"
                 return document.getElementById("analysis").innerHTML = this.randomizeString(positiveString)
             } 
             else if (randomNum == 1) {
-                document.getElementById("analysisimage").src = "src/assets/neutral.jpg"
+                document.getElementById("analysisimage").src = "/neutral.jpg"
                 return document.getElementById("analysis").innerHTML = this.randomizeString(neutralString)
             } 
             else {
-              document.getElementById("analysisimage").src = "src/assets/negative.jpg"
+              document.getElementById("analysisimage").src = "/negative.jpg"
               return document.getElementById("analysis").innerHTML = this.randomizeString(negativeString)
             }
 
