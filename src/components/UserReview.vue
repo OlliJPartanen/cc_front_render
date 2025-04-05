@@ -1,5 +1,7 @@
 
 <script>
+//This is a test comment. This is used to test comment changes on different branches
+
 // Comment string lists
 let positiveString = [
     "This was a positive comment!",
