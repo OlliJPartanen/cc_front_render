@@ -6,7 +6,7 @@ import UserReview from './components/UserReview.vue';
 <template>
   <header>
     <div  class="main_header_style col-m-12 col-t-12 col-12">
-      <h1>Heavy metal sentiment analyzer</h1>
+      <h1>Heavy metal sentiment analyzer (randomizer version, for analyzer check task 4)</h1>
       <img alt="mainImage" src="/mainImage.jpg" />
     </div>
   </header>
