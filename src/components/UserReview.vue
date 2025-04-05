@@ -51,8 +51,9 @@ export default {
             
             // Try to fetch response from URL (sentiment endpoint)
             // Use userinput as a body to post to backend
+            // rahti-path
             try {
-                const res = await fetch("http://127.0.0.1:5000/sentiment", {
+                const res = await fetch("https://cc-backend-open-cloud-computing.2.rahtiapp.fi/sentiment", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
